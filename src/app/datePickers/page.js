@@ -1,4 +1,6 @@
-// 'use-client'
+'use client'
+
+import ReactDatePicker from "@/components/ReactDatePicker/ReactDatePicker";
 
 export default function DatePickerPage() {
     // helper functions here
@@ -10,6 +12,10 @@ export default function DatePickerPage() {
             <p>
                 Here are a list of datepickers.
             </p>
+            <section>
+                <h3>React Date Picker</h3>
+                <ReactDatePicker />
+            </section>
         </>
     );
 };
