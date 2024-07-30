@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(11, 31, 48);
+    color: #fff;
+    font-size: 16px;
+    margin: 1.75rem 2rem;
+}
+
+h1 {
+    color: #eec017;
+}
+
+a {
+    color: #b6b4b4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.table-contents {
+    border: 2px solid pink;
+    border-radius: 10px;
+    margin: 2rem 1.5rem;
+    padding: 1.5rem;
+
+    li {
+        font-size: 1.2rem;
+
+        a {
+            color: rgb(50, 209, 180);
+        
+        &:hover {
+            color: teal;
+
+        }
+    }
+
+}
+}

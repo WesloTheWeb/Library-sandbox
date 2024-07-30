@@ -1,0 +1,19 @@
+.headerContainer {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navigationContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navLinks {
+        margin: 1rem;
+
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
