@@ -1,7 +1,7 @@
 'use client'
 
 import DateInput from "@/components/DatePickers/DateInput";
-import ReactDatePicker from "@/components/ReactDatePicker/ReactDatePicker";
+import ReactDatePicker from "@/components/DatePickers/ReactDatePicker/ReactDatePicker";
 
 export default function DatePickerPage() {
     // helper functions here
