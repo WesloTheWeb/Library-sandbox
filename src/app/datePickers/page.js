@@ -1,5 +1,6 @@
 'use client'
 
+import InputDateField from "@/components/DateInputs/inputDateField";
 import DateInput from "@/components/DatePickers/DateInput";
 import ReactDatePicker from "@/components/DatePickers/ReactDatePicker/ReactDatePicker";
 
@@ -15,9 +16,14 @@ export default function DatePickerPage() {
             </p>
             <section>
                 <h3>React Date Picker</h3>
-                <ReactDatePicker />
+                <ReactDatePicker 
+                isClearable
+                 showTimeSelect
+  dateFormat="Pp"
+                />
                 <h3>Native</h3>
-                <DateInput />
+                {/* <DateInput /> */}
+                <InputDateField />
             </section>
         </>
     );
